@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+} 
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    background-color: #fff;   
+}
+#logo{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px; /*Khoảng cách giữa cách dòng chữ*/
+}
+.container{
+    margin: 0px auto;
+    max-width: 960px;
+}
+.container h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.container p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #F5f5f5;
+    padding: 10px 0px;
+    transition: all 0.5s ease-in-out;
+}
+header.sticky{
+    background-color: rgb(170, 170, 170);
+    opacity: 0.9;
+    color: #fff;
+    padding: 10px 0px;
+}
+ul#main-menu {
+    display: flex;
+}
+
+ul#main-menu a{
+    text-transform: uppercase;
+    padding: 20px 20px;
+    color: #000;
+    display: block;
+}
+#banner{
+    height: 100px;
+}
+
+.index{
+    margin: 40px;
+}
+
+.carousel-caption p{
+    color:blueviolet
+    font-size: 15px;
+}
+.carousel-caption h2{
+    color: rgb(22, 72, 165);
+  
+}
+
+

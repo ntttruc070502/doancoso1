@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>S4S</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 2px 2px 5px rgb(79, 223, 228);
+            }
+            .jumbotron{
+                padding: 20px;
+                background-color: rgb(26, 95, 173);
+                margin: 0px;
+                height: 250px;
+            }
+            .panel{
+                background-color: rgb(99, 160, 230);
+                box-sizing: border-box;
+                margin: 0px;
+                height: 250px;
+                padding: 20px;
+                text-shadow: 2px 2px 5px rgb(79, 223, 228);
+                
+            }
+            .modal-header, h4, .close {
+                background-color: #5cb85c;
+                color:white !important;
+                text-align: center;
+                font-size: 30px;
+            }
+            .modal-footer {
+                background-color: #f9f9f9;
+            }
+            
+            .p1{
+                padding-left: 100px;
+                padding-top: 30px;
+                font-size: 20px;
+                position: relative;
+                animation-name: example;
+                animation-duration: 2s;
+            }
+            .p2{
+                padding-left: 120px;
+                font-size: 20px;
+                position: relative;
+                animation-name: example;
+                animation-duration: 8s;
+            }
+            .p3{
+                padding-left: 140px;
+                font-size: 20px;
+                position: relative;
+                animation-name: example;
+                animation-duration: 14s;
+            }
+            /* Tạo hoạt ảnh */
+            @keyframes example {
+                0%   { left:0px; top:0px;}
+                25%  { left:0px; top:100px;}
+                50%  { left:0px; top:0px;}
+            }
+            /*Chỉ định thời điểm thay đổi sẽ xảy ra theo %    */
+            .panel1{
+                font-weight: bold;
+                background-color: rgb(74, 145, 228);
+                padding: 50px;
+                font-size: 30px;
+                color: white;
+            }
+            h1{
+                font-family: 'Courier New', monospace;
+                font-size: 30px;
+                color: black;
+                text-shadow: 2px 2px 5px rgb(79, 223, 228);
+                font-weight: bold;
+            }
+            .benefit {
+                font-weight: bold;
+                background-color: rgb(231, 239, 247);
+                padding: 50px 50px 0px 0px;
+                font-size: 30px;
+                color: white;
+                color: brown;
+                list-style-type: none;
+                font-size: 70px;
+
+            }
+        
+            .benefit1{
+                background-color: rgb(231, 239, 247);
+                padding: 50px 0px 150px 50px;
+                margin: top;
+                font-size: 25px;
+                color: rgb(37, 120, 197);
+
+                list-style-type: none;
+                text-align: left;
+
+            }
+            .btn btn-default btn-lg{
+                background-color: rgb(66, 238, 152);
+            }
+            .benefit1{
+                text-decoration-color: blue;
+                background-color: rgb(199, 199, 199);
+            }
+            .benefit{
+                background-color:rgb(199, 199, 199);
+            }
+            .footer{
+                background-color: rgb(96, 211, 219);
+                text-align: center;
+                font-size: 40px;
+                height: 200px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="col-sm-8">
+                <img src="logo.png" width="100px"> <br>
+                <h1>Study for Success</h1>
+            </div>
+           
+            <div class="col-sm-4">
+                <a href="DN.html"><button type="button" class="btn btn-default btn-lg" id="myBtn" style="float: right;">Đăng nhập</button></a>
+                <a href="DK.html"><button type="button" class="btn btn-default btn-lg" id="myBt" style="float: right;">Đăng ký</button></a>
+            </div>
+            
+            </div>
+           
+        <div class="panel" >
+            <div class="col-sm-12"> 
+            <div class="col-sm-8">
+                <p class="p1">Bạn không bắt buộc phải thành công ngay từ đầu.</p>
+                <p class="p2">Mà là bắt đầu để sau đó thành công. </p>
+                <p class="p3">Nhưng muốn thành công thì học tập và rèn luyện mỗi ngày là một việc không thể thiếu.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="loi-chuc (2).jpg" class="img-thumbnail" style="float: right;" align="top" width="200px">
+            </div> 
+        </div>
+        </div>
+        <div class="panel1">
+            <p style="padding-left: 150px;">Học mọi lúc mọi nơi</p>
+            <p style="padding-left: 150px;">Chương trình học miễn phí</p>
+
+        </div>
+        </div>
+        <div class="benefit" style="text-align: center;">Bạn sẽ nhận được gì sau khóa học ? </div>
+        <div class="benefit1">
+                    <li><i class="glyphicon glyphicon-ok"></i><a href=""></a> Các khóa học bổ trợ kiến thức - kỹ năng cho học sinh theo từng cấp học, giúp học sinh nâng cao năng lực học tập cá nhân, tự tin khẳng định bản thân trong thời đại số.</li>
+                    <li><i class="glyphicon glyphicon-ok"></i><a href=""></a> Tiết kiệm thời gian học tập: So với phương pháp đào tạo truyền thống thì các khóa học qua mạng giúp học viên tiết kiệm khoảng từ 20 đến 40 % thời gian đo giảm được thời gian đi lại và sự phân tán.</li>
+                    <li><i class="glyphicon glyphicon-ok"></i><a href=""></a> Học với giáo viên giỏi, uy tín</li>
+                    <li><i class="glyphicon glyphicon-ok"></i><a href=""></a> Rèn luyện, nâng cao kỹ năng tự học</li>
+                    <li><i class="glyphicon glyphicon-ok"></i><a href=""></a> Bài giảng chất lượng và bài tập, đề thi phong phú</li>
+                    <li><i class="glyphicon glyphicon-ok"></i><a href=""></a> Học bất cứ nơi đâu và bất kì khi nào</li>
+                    <li><i class="glyphicon glyphicon-ok"></i><a href=""></a> Hỏi đáp với thầy cô khi không hiểu bài dễ dàng</li>
+        </div>
+        <div class="footer">
+            <p>Welcome to the course</p>
+            <img src="mũi-tên.gif" width="100px"><br>
+            <a href="DK.html"><button type="button" class="btn btn-default btn-lg" id="myBton" >Đăng ký ngay !</button></a>
+        </div>
+    </body>
+</html>

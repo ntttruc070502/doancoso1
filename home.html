@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="home (1).css">
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="container"> 
+                    <div class="container"> 
+                        <div class="row profile">        
+                        <div class="col-md-3">          
+                            <div class="profile-sidebar">                          
+                                <div class="profile-userpic">               
+                                    <img src="https://hocwebgiare.com/thiet_ke_web_chuan_demo/bootstrap_user_profile/images/profile_user.jpg" class="img-responsive" alt="Thông tin cá nhân">               
+                                </div>                                            
+                            <div class="profile-usertitle">                   
+                                <div class="profile-usertitle-name"> Thanh Trúc  </div>                  
+                                <div class="profile-usertitle-job">  Học sinh </div>              
+                            </div>                                                
+                            <div class="profile-userbuttons">                 
+                            <a href="trangchu.html"><button type="button" class="btn btn-success btn-sm"> Trang chủ</button>   </a>                
+                            </div>                                            
+                                                
+                            </div>     
+                        </div>      
+                        </div>
+                        <div id="mainnav">
+                            <ul  class="nav nav-tabs">
+                                <li class="active"><a data-toggle="tab" href="#thongtin">Thông tin cá nhân</a></li>
+                                <li><a  data-toggle="tab" href="#khoahoc">Khóa học của tôi</a></li>
+                                <li><a  data-toggle="tab" href="#lichsu">Lịch sử</a></li>
+                                                    
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            
+            <div class="col-sm-9" style="border-left: 2px; color: #000;">
+                <div class="col-sm-12" >
+                    
+              
+                  <div class="col-sm-3" style="padding: 10px; padding-left: 100px; ">
+                      <img src="logo.png" width="100px" >
+                      
+                  </div>
+                  <div class="col-sm-8" style="padding-top: 20px; padding-left: 0px; font-weight: bold;">
+                     <h1> Study for Success</h1>
+                  </div>
+              
+                
+              </div>
+                <div class="tab-content">
+                    <div id="thongtin" class="tab-pane fade in active">
+                        <h1 style="text-align: center;">Thông tin cá nhân</h1> <br>
+                        Họ và tên:  Nguyễn Thị Thanh Trúc <br><br>
+                        Lớp: 12   <br><br>
+                        Email: ntttruc@vku.udn.vn   <br><br>
+                        SDT: 0123000000    <br><br>
+                    </div>
+                    <div id="khoahoc" class="tab-pane fade">
+                      <h3>Các khóa học đã mua</h3>
+                      <p>Bạn chưa mua khóa học nào</p>
+                    </div>
+                    <div id="lichsu" class="tab-pane fade">
+                     
+                    </div>
+                    
+                  </div>
+                </div>
+                
+        </div>
+
+        
+        <div class="container-fluid bg-grey" style="background-color: rgb(202, 236, 247);">
+          
+          <div class="row1" >
+            <div class="col-sm-5" style="font-size: 20px; padding: 30px">
+
+              <p>Liên lạc với chúng tôi</p>
+              <p><span class="glyphicon glyphicon-map-marker"></span> Hải Châu,Đà Nẵng</p>
+              <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+              <p><span class="glyphicon glyphicon-envelope"></span> S4Scompany@study.com</p>
+              <p>Hoặc thông qua</p>
+              <p>
+                <a href=""><img src="fb.jpg" alt="Facebook" width="40px"></a>
+                <a href=""><img src="intar.jpg" alt="Instagram" width="40px"></a>
+                <a href=""><img src="mess.jpg" alt="Mess" width="40px"></a>
+                <a href=""><img src="yt.jpg" alt="Youtube" width="40px"></a>
+              </p>
+            </div>
+            <div class="col-sm-7">
+              <div class="row1">
+                <h2 class="text-center">ĐÁNH GIÁ</h2>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Name" type="name" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+              </div>
+              <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right" type="sub" style="width: 100px;">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+                        
+    </body>
+</html>
